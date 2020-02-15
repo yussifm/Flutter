@@ -8,7 +8,7 @@ class PasswordUI extends StatefulWidget {
 }
 
 class _PasswordUIState extends State<PasswordUI> {
-  String _password;
+  String _password; 
 
   @override
   Widget build(BuildContext context) {
