@@ -1,5 +1,4 @@
 import 'package:bsj_admin/UI/Views/home.dart';
-import 'package:bsj_admin/UI/Views/signup_views.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
