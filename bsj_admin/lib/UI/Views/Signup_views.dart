@@ -14,7 +14,7 @@ class SignUpAdmin extends StatefulWidget {
 }
 
 class _SignUpAdminState extends State<SignUpAdmin> {
-  get _namestate => UserNameUI().namestate;
+  
 
   @override
   Widget build(BuildContext context) {
@@ -115,10 +115,7 @@ class _SignUpAdminState extends State<SignUpAdmin> {
               elevation: 2.0,
               borderRadius: BorderRadius.all(Radius.circular(30)),
               child: FlatButton(onPressed: () {
-               if(!_namestate.currentState.validate()){
-                 return;
-               }
-               _namestate.currentState.saved();
+               
                  
                
               }, child: Text('SignUp')),
